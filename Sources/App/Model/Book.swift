@@ -14,7 +14,8 @@ struct Book: Content {
     var isbn: String
     var name: String
     var description: String
-    var images: [Image]
+    var price: Double
+    var language: String
+    var images: Image
     var authors: [Person]
-    var translators: [Person]?
 }
