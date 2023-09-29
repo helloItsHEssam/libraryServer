@@ -13,9 +13,7 @@ struct ImageController: RouteCollection {
     func boot(routes: Vapor.RoutesBuilder) throws {
         let images = routes.grouped("image")
 
-        images.group(":name") { image in
-            image.get(use: view)
-        }
+        images.get(":name", use: view)
     }
     
     func view(req: Request) async throws -> Response {
