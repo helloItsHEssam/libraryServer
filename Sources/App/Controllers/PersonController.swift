@@ -18,10 +18,38 @@ struct PersonController: RouteCollection {
     }
     
     func view(req: Request) async throws -> Person {
-        throw Abort(.notFound)
+        guard let id = getId(fromRequest: req) else {
+            throw Abort(.notFound)
+        }
+        
+        guard let person = findPerson(id: id) else {
+            throw Abort(.notFound)
+        }
+        
+        return person
     }
     
     func allBooks(req: Request) async throws -> [Book] {
-        throw Abort(.notFound)
+        guard let id = getId(fromRequest: req) else {
+            throw Abort(.notFound)
+        }
+        
+        guard let person = findPerson(id: id) else {
+            throw Abort(.notFound)
+        }
+
+        return dbBooks.filter { $0.author == person }
+    }
+    
+    private func getId(fromRequest req: Request) -> Int? {
+        guard let idString = req.parameters.get("id"),
+              let id = Int(idString) else {
+            return nil
+        }
+        return id
+    }
+    
+    private func findPerson(id: Int) -> Person? {
+        return dbPersons.first { $0.id == id }
     }
 }

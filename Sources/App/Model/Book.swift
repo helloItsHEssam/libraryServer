@@ -8,7 +8,7 @@
 import Foundation
 import Vapor
 
-struct Book: Content {
+struct Book: Content, Equatable {
     
     var id: Int
     var isbn: String
@@ -17,5 +17,9 @@ struct Book: Content {
     var price: Double
     var language: String
     var images: Image
-    var authors: [Person]
+    var author: Person
+    
+    static func == (lhs: Book, rhs: Book) -> Bool {
+        return lhs.id == rhs.id
+    }
 }
