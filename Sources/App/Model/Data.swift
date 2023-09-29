@@ -30,7 +30,7 @@ fileprivate let hobbit = Book(id: 1,
                   Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon.
                   Bilbo reluctantly joins their quest, unaware that on his journey to the Lonely Mountain he will encounter both a magic ring and a frightening creature known as Gollum.
 """,
-                  price: 5.99, language: "English", images: hobbitImage, author: tolkien)
+                  price: 5.99, language: "English", image: hobbitImage, author: tolkien)
 
 fileprivate let fellowShipImage = Image(id: 2, url: "2.jpg")
 fileprivate let fellowShip = Book(id: 2,
@@ -44,7 +44,7 @@ One Ring to rule them all, One Ring to find them, One Ring to bring them all and
 J.R.R. Tolkien’s classic epic fantasy trilogy The Lord of the Rings, now with a fresh new package for Book 1, The Fellowship of the Ring.
 In ancient times, the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages, it fell into the hands of Bilbo Baggins, as told in The Hobbit.
 In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as his elderly cousin Bilbo entrusts the ring to his care. Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his evil purpose.
-""", price: 11.99, language: "English", images: fellowShipImage, author: tolkien)
+""", price: 11.99, language: "English", image: fellowShipImage, author: tolkien)
 
 fileprivate let twoTowerImage = Image(id: 4, url: "4.jpg")
 fileprivate let twoTower = Book(id: 4,
@@ -58,7 +58,7 @@ One Ring to rule them all, One Ring to find them, One Ring to bring them all and
 J.R.R. Tolkien’s classic epic fantasy trilogy The Lord of the Rings, now with a fresh new package for Book 2, The Two Towers.
 Frodo and his Companions of the Ring have been beset by danger during their quest to prevent the Ruling Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom. They lost the wizard Gandalf in the Mines of Moria. And Boromir, seduced by the power of the Ring, tried to seize it by force. While Frodo and Sam made their escape, the rest of the company was attacked by Orcs.
 Now they continue their journey alone down the great River Anduin—alone, that is, save for the mysterious creeping figure that follows wherever they go.
-""", price: 12.99, language: "English", images: twoTowerImage, author: tolkien)
+""", price: 12.99, language: "English", image: twoTowerImage, author: tolkien)
 
 fileprivate let returnTheKingImage = Image(id: 3, url: "3.jpg")
 fileprivate let returnTheKing = Book(id: 3,
@@ -72,7 +72,7 @@ One Ring to rule them all, One Ring to find them, One Ring to bring them all and
 J.R.R. Tolkien’s classic epic fantasy trilogy The Lord of the Rings, now with a fresh new package for Book 3, The Return of the King.
 As the Shadow of Mordor grows across the land, the Companions of the Ring have become involved in separate adventures. Aragorn, revealed as the hidden heir of the ancient Kings of the West, has joined with the Riders of Rohan against the forces of Isengard and takes part in the desperate victory of the Hornburg.
 Merry and Pippin, captured by Orcs, escape into Fangorn Forest and there encounter the Ents. Gandalf has miraculously returned and defeated the evil wizard, Saruman. Sam has left his master for dead after a battle with the giant spider, Shelob; but Frodo is still alive—now in the foul hands of the Orcs. And all the while the armies of the Dark Lord are massing as the One Ring draws ever nearer to the Cracks of Doom.
-""", price: 6.15, language: "English", images: returnTheKingImage, author: tolkien)
+""", price: 6.15, language: "English", image: returnTheKingImage, author: tolkien)
 
 fileprivate let kelaraImage = Image(id: 8, url: "8.jpg")
 fileprivate let kelara = Book(id: 8,
@@ -80,7 +80,7 @@ fileprivate let kelara = Book(id: 8,
                     name: "Klara and the Sun",
                     description: """
 Here is the story of Klara, an Artificial Friend with outstanding observational qualities, who, from her place in the store, watches carefully the behavior of those who come in to browse, and of those who pass on the street outside. She remains hopeful that a customer will soon choose her. Klara and the Sun is a thrilling book that offers a look at our changing world through the eyes of an unforgettable narrator, and one that explores the fundamental question: what does it mean to love?
-""", price: 13.99, language: "English", images: kelaraImage, author: ishiguro)
+""", price: 13.99, language: "English", image: kelaraImage, author: ishiguro)
 
 fileprivate let neverLetMeGoImage = Image(id: 7, url: "7.jpg")
 fileprivate let neverLetMeGo = Book(id: 7,
@@ -90,7 +90,7 @@ fileprivate let neverLetMeGo = Book(id: 7,
 Designed to meet the requirements for students at GCSE and A level, this accessible educational edition offers the complete text of Never Let Me Go with a comprehensive study guide. Intended for individual study as well as class use, Geoff Barton's guide:
 - clearly introduces the context of the novel and its author; - examines in detail its themes, characters and structure; - looks at the novel in the author's own words, and at different critical receptions; - provides glossaries and test questions to prompt deeper thinking.
 In one of the most memorable novels of recent years, Kazuo Ishiguro imagines the lives of a group of students growing up in a darkly skewed version of contemporary England. Narrated by Kathy, now thirty-one, Never Let Me Go hauntingly dramatises her attempts to come to terms with her childhood at a seemingly idyllic school, Hailsham, and with the fate that has always awaited her and her closest friends in the wider world. A story of love, friendship and memory, Never Let Me Go is charged throughout with a sense of the fragility of life.
-""", price: 15.01, language: "English", images: neverLetMeGoImage, author: ishiguro)
+""", price: 15.01, language: "English", image: neverLetMeGoImage, author: ishiguro)
 
 fileprivate let remainOfDayImage = Image(id: 6, url: "6.jpg")
 fileprivate let remainOfDay = Book(id: 6,
@@ -100,7 +100,7 @@ fileprivate let remainOfDay = Book(id: 6,
 This is Kazuo Ishiguro's profoundly compelling portrait of a butler named Stevens. Stevens, at the end of three decades of service at Darlington Hall, spending a day on a country drive, embarks as well on a journey through the past in an effort to reassure himself that he has served humanity by serving the "great gentleman," Lord Darlington. But lurking in his memory are doubts about the true nature of Lord Darlington's "greatness," and much graver doubts about the nature of his own life.
 
 A contemporary classic, The Remains of the Day is Kazuo Ishiguro's beautiful and haunting evocation of life between the wars in a Great English House.   In the summer of 1956, Stevens, the ageing butler of Darlington Hall, embarks on a leisurely holiday that will take him deep into the countryside and into his past.
-""", price: 12.99, language: "English", images: remainOfDayImage, author: ishiguro)
+""", price: 12.99, language: "English", image: remainOfDayImage, author: ishiguro)
 
 fileprivate let WhenWeImage = Image(id: 5, url: "5.jpg")
 fileprivate let WhenWe = Book(id: 5,
@@ -108,7 +108,7 @@ fileprivate let WhenWe = Book(id: 5,
                     name: "When We Were Orphans",
                     description: """
 Born in early-twentieth-century Shanghai, Banks was orphaned at the age of nine after the separate disappearances of his parents. Now, more than twenty years later, he is a celebrated figure in London society; yet the investigative expertise that has garnered him fame has done little to illuminate the circumstances of his parents' alleged kidnappings. Banks travels to the seething, labyrinthine city of his memory in hopes of solving the mystery of his own, painful past, only to find that war is ravaging Shanghai beyond recognition-and that his own recollections are proving as difficult to trust as the people around him.
-""", price: 11, language: "English", images: WhenWeImage, author: ishiguro)
+""", price: 11, language: "English", image: WhenWeImage, author: ishiguro)
 
 fileprivate let midnightLibraryImage = Image(id: 9, url: "9.jpg")
 fileprivate let midnightLibrary = Book(id: 9,
@@ -118,7 +118,7 @@ fileprivate let midnightLibrary = Book(id: 9,
 Somewhere out beyond the edge of the universe there is a library that contains an infinite number of books, each one the story of another reality. One tells the story of your life as it is, along with another book for the other life you could have lived if you had made a different choice at any point in your life. While we all wonder how our lives might have been, what if you had the chance to go to the library and see for yourself? Would any of these other lives truly be better?
 
 In The Midnight Library, Matt Haig's enchanting blockbuster novel, Nora Seed finds herself faced with this decision. Faced with the possibility of changing her life for a new one, following a different career, undoing old breakups, realizing her dreams of becoming a glaciologist; she must search within herself as she travels through the Midnight Library to decide what is truly fulfilling in life, and what makes it worth living in the first place.
-""", price: 13.99, language: "English", images: midnightLibraryImage, author: haig)
+""", price: 13.99, language: "English", image: midnightLibraryImage, author: haig)
 
 
 let dbPersons = [tolkien, ishiguro, haig]

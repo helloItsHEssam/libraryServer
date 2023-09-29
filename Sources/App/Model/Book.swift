@@ -16,7 +16,7 @@ struct Book: Content, Equatable {
     var description: String
     var price: Double
     var language: String
-    var images: Image
+    var image: Image
     var author: Person
     
     static func == (lhs: Book, rhs: Book) -> Bool {
