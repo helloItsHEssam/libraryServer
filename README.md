@@ -8,8 +8,8 @@ Library server created by Vapor and Swift.
 - [ ] Implement App
   - [x] Implemented Author and book endpoints.
   - [ ] Implement real DB instead of fake data.
-- [ ] Client
-  - [ ] Create a client for it.
+- [x] Client
+  - [x] Create a client for it.
 - [ ] usage
   - [ ] run with Docker.
 
@@ -29,6 +29,11 @@ Download the zip file open the folder with Xcode and wait until complete to fetc
 Configure the custom working directory by following below link (Vapor document):
 
 https://docs.vapor.codes/getting-started/xcode/
+
+## Client for it
+You can use iOS Client for this project by the below link:
+
+https://github.com/helloItsHEssam/Library
 
 
 ### How to Contribute
